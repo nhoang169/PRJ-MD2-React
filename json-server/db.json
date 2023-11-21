@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "vietanh@gmail.com",
+      "password": "123456",
+      "isLogin": true
+    },
+    {
+      "id": 2,
+      "email": "vanh@gmail.com",
+      "password": "123456",
+      "isLogin": true
+    },
+    {
+      "email": "ptva@gmail.com",
+      "password": "123456",
+      "isLogin": true,
+      "id": 3
+    },
+    {
+      "email": "vietanhpt.me@gmail.com",
+      "password": "123456",
+      "isLogin": true,
+      "id": 4
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "isLogin": true,
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Mulberry",
+      "product_img": "../assets/img/products/product-img-1.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.",
+      "product_qty": "100",
+      "product_cate": 1,
+      "product_price": 100
+    },
+    {
+      "id": 2,
+      "product_name": "Berry",
+      "product_img": "../assets/img/products/product-img-2.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio. 2",
+      "product_qty": "300",
+      "product_cate": 1,
+      "product_price": 120
+    },
+    {
+      "id": 3,
+      "product_name": "Lemon",
+      "product_img": "../assets/img/products/product-img-3.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.",
+      "product_qty": "100",
+      "product_cate": 1,
+      "product_price": 50
+    },
+    {
+      "id": 4,
+      "product_name": "Avocado",
+      "product_img": "../assets/img/products/product-img-4.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.",
+      "product_qty": "100",
+      "product_cate": 1,
+      "product_price": 100
+    },
+    {
+      "id": 5,
+      "product_name": "Green Apple",
+      "product_img": "../assets/img/products/product-img-5.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio. 2",
+      "product_qty": "300",
+      "product_cate": 1,
+      "product_price": 200
+    },
+    {
+      "id": 6,
+      "product_name": "Strawberry",
+      "product_img": "../assets/img/products/product-img-6.jpg",
+      "product_des": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio. 2",
+      "product_qty": "300",
+      "product_cate": 1,
+      "product_price": 150
+    }
+  ],
+  "carts": [
+    {
+      "userId": 3,
+      "productId": 5,
+      "productName": "Green Apple",
+      "productPrice": 200,
+      "productImg": "../assets/img/products/product-img-5.jpg",
+      "amount": 1,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "productId": 3,
+      "productName": "Lemon",
+      "productPrice": 50,
+      "productImg": "../assets/img/products/product-img-3.jpg",
+      "amount": 1,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "productId": 1,
+      "productName": "Mulberry",
+      "productPrice": 100,
+      "productImg": "../assets/img/products/product-img-1.jpg",
+      "amount": 1,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "productId": 2,
+      "productName": "Berry",
+      "productPrice": 120,
+      "productImg": "../assets/img/products/product-img-2.jpg",
+      "amount": 1,
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 22163,
+      "order_date": "2023-09-18T01:52:21.519Z",
+      "order_status": "waiting for shipping",
+      "order_user": 3,
+      "order_total": 470,
+      "order_customer": {
+        "name": "Phạm Trần Việt Anh",
+        "email": "vietanhpt.me@gmail.com",
+        "address": "xóm 11",
+        "phoneNumber": "1254572098"
+      },
+      "order_item": [
+        {
+          "userId": 3,
+          "productId": 5,
+          "productName": "Green Apple",
+          "productPrice": 200,
+          "productImg": "../assets/img/products/product-img-5.jpg",
+          "amount": 1,
+          "id": 1
+        },
+        {
+          "userId": 3,
+          "productId": 3,
+          "productName": "Lemon",
+          "productPrice": 50,
+          "productImg": "../assets/img/products/product-img-3.jpg",
+          "amount": 1,
+          "id": 2
+        },
+        {
+          "userId": 3,
+          "productId": 1,
+          "productName": "Mulberry",
+          "productPrice": 100,
+          "productImg": "../assets/img/products/product-img-1.jpg",
+          "amount": 1,
+          "id": 3
+        },
+        {
+          "userId": 3,
+          "productId": 2,
+          "productName": "Berry",
+          "productPrice": 120,
+          "productImg": "../assets/img/products/product-img-2.jpg",
+          "amount": 1,
+          "id": 4
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
